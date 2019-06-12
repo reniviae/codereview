@@ -4,8 +4,6 @@
 
 template <typename T> 
 class templatePriorityQueue {
-	private:
-		std::priority_queue<T> storage;
 	public:
 		templatePriorityQueue();
 		~templatePriorityQueue();
@@ -14,5 +12,7 @@ class templatePriorityQueue {
 		int size();
 		void push(const T&);
 		void pop();	
+	private:
+		std::priority_queue<T> storage;
 };
 #endif PRIORITY_QUEUE_H_
