@@ -1,8 +1,14 @@
-# codereview
-코드리뷰 심화 교육과정 
-#include <stdio.h>
+# Project 1
+---
+## Files
+- `priority_queue.cc`, `priority_queue.h` : Class templatePriorityQueue source code
+- `main.cc` : Usage for templatePriorityQueue class
+- `priority_queue_test.cc` : Unittest code for templatePriorityQueue class using GTest library
 
-int main()
-{
-  return 0;
-}
+## Install
+
+```
+# cmake CMakeLists.txt
+# make
+# ./main
+```
